@@ -1,0 +1,13 @@
+var colors = ["Red","Green","Blue"];
+var removed = colors.splice(0,1);
+console.log(colors);
+console.log(removed);
+console.log(removed.length);
+removed = colors.splice(1,0,"Pink","Yellow");
+console.log(colors);
+console.log(removed);
+console.log(removed.length);
+removed = colors.splice(1,1,"Purple","Violet");
+console.log(colors);
+console.log(removed);
+console.log(removed.length);
