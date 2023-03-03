@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation of Login Form</title>
+    <script>
+        function Test(){
+            var un = document.getElementById("un").value;
+            var pw = document.getElementById("pw").value;
+            if((un == "kgm") && (pw == "kgm@123")){
+                alert("Login Successfully");
+            }
+            else if(un != "kgm"){
+                alert("Invalid Username");
+            }
+            else{
+                alert("Invalid Password");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" name="usernamename" id="un"><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="pw"><br>
+        <input type="button" value="Login" onclick="Test()">
+    </form>
+</body>
+</html>

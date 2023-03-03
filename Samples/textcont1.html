@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text task with javascript</title>
+    <script>
+        function add(){
+            var a = parseInt(document.getElementById("first").value);
+            var b = parseInt(document.getElementById("second").value);
+            document.getElementById("sp").textContent = "Addition : " + (a + b);
+            document.getElementById("sp").style.color = "orange";
+            document.getElementById("sp").style.fontSize = "20px";
+            document.getElementById("sp").style.fontStyle = "bold";
+        }
+        function sub(){
+            a = parseInt(document.getElementById("first").value);
+            b = parseInt(document.getElementById("second").value);
+            document.getElementById("sp").textContent = "Subraction : " + (a - b);
+            document.getElementById("sp").style.color = "green";
+            document.getElementById("sp").style.fontSize = "20px";
+            document.getElementById("sp").style.fontStyle = "bold";
+        }
+        function mul(){
+            a = parseInt(document.getElementById("first").value);
+            b = parseInt(document.getElementById("second").value);
+            document.getElementById("sp").textContent = "Multiplication : " + (a * b);
+            document.getElementById("sp").style.color = "red";
+            document.getElementById("sp").style.fontSize = "20px";
+            document.getElementById("sp").style.fontStyle = "bold";
+        }
+        function div(){
+            a = parseInt(document.getElementById("first").value);
+            b = parseInt(document.getElementById("second").value);
+            document.getElementById("sp").textContent = "Division : " + (a / b);
+            document.getElementById("sp").style.color = "violet";
+            document.getElementById("sp").style.fontSize = "20px";
+            document.getElementById("sp").style.fontStyle = "bold";
+        }
+    </script>
+</head>
+<body>
+    <h1>Calculation of Numbers</h1>
+    <label for="">Enter First Number:</label>
+    <input type="text" name="" id="first"><br><br>
+    <label for="">Enter Second Number:</label>
+    <input type="text" name="" id="second"><br><br>
+    <input type="button" value="ADD" onclick="add()">
+    <input type="button" value="SUB" onclick="sub()">
+    <input type="button" value="MUL" onclick="mul()">
+    <input type="button" value="DIV" onclick="div()"><br><br>
+    <span id="sp"></span>
+</body>
+</html>

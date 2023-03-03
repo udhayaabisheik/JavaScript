@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worging with style using css</title>
+    <script>
+        function manipulate(){
+            document.getElementById("mainh").textContent = "4.0 Technologies";
+            document.getElementById("mainh").style.color = "red";
+            document.getElementById("mainh").style.fontSize = "30px";
+            document.getElementById("mainh").style.fontStyle = "bold";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="mainh">Web Technologies</h1>
+    <input type="button" value="Click" onclick="manipulate()">
+</body>
+</html>
