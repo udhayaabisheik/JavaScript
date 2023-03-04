@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with documentname</title>
+    <script>
+        function change(){
+            var a = document.getElementsByTagName("p");
+            alert("Paragraph Length" + a.length);
+            var h = document.getElementsByTagName("h1");
+            h[0].innerText = "Javascript";
+            h[1].innerText = "Dynamic";
+        }
+    </script>
+</head>
+<body>
+    <h1></h1>
+    <h1></h1>
+    <p>
+        What is JavaScript?<br>
+        JavaScript is a client-side scripiting language <br>
+        it has OOPS for creating dynamic web pages.
+    </p>
+    <input type="button" value="click" onclick="change()">
+</body>
+</html>
