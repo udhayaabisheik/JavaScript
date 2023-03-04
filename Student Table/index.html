@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students Database</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="studenttable.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="Details_Entry rounded-2">
+        <h4>Student Detail Form</h4><br>
+        <div class="input_box mb-2">
+            <label for="">Name</label>
+            <input type="text" class="box" name="full_name" id="name" value=""><br><br>
+        </div>
+        <div class="input_box mb-2">
+            <label for="">Roll No</label>
+            <input type="text" class="box" name="roll_no" id="roll_no"><br><br>
+        </div>
+        <div class="input_box mb-2">
+            <label for="">Tamil</label>
+            <input type="text" class="box" name="t_mark" id="t_mark"><br><br>
+        </div>
+        <div class="input_box mb-2">
+            <label for="">English</label>
+            <input type="text" class="box" name="e_mark" id="e_mark"><br><br>
+        </div>
+        <div class="input_box mb-2">
+            <label for="">Maths</label>
+            <input type="text" class="box" name="m_mark" id="m_mark"><br><br>
+        </div>
+        <div class="input_box mb-2">
+            <label for="">Science</label>
+            <input type="text" class="box" name="s_mark" id="s_mark"><br><br>
+        </div>
+        <div class="input_box mb-2">
+            <label for="">Social</label>
+            <input type="text" class="box" name="ss_mark" id="ss_mark"><br><br>
+        </div>
+        <input type="button" value="Submit" class="mt-3" id="sub_btn" onclick="add(),cls()">
+    </div>
+    <div class="Display">
+        <table class="table" id="MyData">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Tamil</th>
+                    <th>English</th>
+                    <th>Maths</th>
+                    <th>Science</th>
+                    <th>Social</th>
+                    <th>Total</th>
+                    <th>Average</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

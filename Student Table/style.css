@@ -1,0 +1,66 @@
+*{
+    text-align: center;
+}
+
+body{
+    background: url('BG-Color.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Details_Entry{
+    position: absolute;
+    top:10%;
+    left:5%;
+    display: block;
+    width: 400px;
+    height: 520px;
+    border: 1px solid orange;
+    padding: 25px;
+    line-height: 100%;
+    box-shadow: 4px 4px 4px 4px rgba(226, 108, 58, 0.507);
+    color: orange;
+}
+
+.box{
+    border: none;
+    border-bottom: 2px solid orange;
+    outline: none;
+    width: 280px;
+}
+
+#sub_btn{
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    height: 35px;
+    width: 100px;
+}
+
+.Display{
+    position:absolute;
+    top: 10%;
+    left: 40%;
+}
+
+table{
+    padding: 5px;
+    border-collapse: collapse;
+    width: 800px !important;
+}
+
+thead{
+    background-color: rgba(255, 115, 0, 0.779);
+    color: white;
+    padding: 5px;
+}
+
+td,th{
+    padding: auto;
+}
+
+td{
+    background-color: aliceorange !important;
+    color: white;
+}
