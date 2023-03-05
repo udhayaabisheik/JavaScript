@@ -29,7 +29,6 @@ function display2(){
         release : "10 September 2010",
         runtime : "161 minutes"
     }
-    
     document.getElementById("img2").src = movie2.image;
     document.getElementById("t2").innerHTML = movie2.title;
     document.getElementById("d2").innerHTML = movie2.director;
